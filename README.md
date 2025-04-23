@@ -60,3 +60,7 @@ The compiled file will be the `trackball.uf2` in the ./code/build/ folder.
 
 ## Flashing
 To upload the compiled trackball.uf2 file from your computer to the trackball, plug in the USB cable from the trackball into your computer and hold boot, then press reset, then let go of both buttons. The trackball should appear in your list of devices. Drag and drop the .uf2 file on to the trackball.
+
+## Demo
+https://github.com/user-attachments/assets/3003e133-2ebc-4bb3-9a59-b019c4e8687f
+
