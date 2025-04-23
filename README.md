@@ -27,11 +27,13 @@ Requires:
 - 3 M3x12 flat head screws
 - USB cable *Note: this should be a USB-A cable with the standard 4 wires. Using a USB-C cable might work, but since USB-C generally relies on a handshake before providing power, the trackball would not directly work if you plugged it into your computer with a USB-C cord unless you have a dongle in between.*
 
+### 3D printing
 I 3D printed the parts at .20 layer height, no supports needed. I used 40% sparse infill for the top part to get some rigidity and heft. The base I printed at standard 15% sparse infill. 
 
 For the plates that hold the micro switchees, depending on your 3D printer's tolerances, the holes might not be big enough to fit the micro switch legs. I would suggest to first try widening them with some tweezers, if that doesn't work, adjust the X-Y hole compensation by + .1mm maybe. It's better for the holes to be tight and grip onto the switches well than to be too loose and have your switches wobble around. 
 
-Another thing to note is which pins on the PCB you solder your mouse buttons to. In the current compiled trackball.uf2, I have the pins for the buttons defined as thus below. If you use different pins, you would need to modify this code. TOP_LEFT is 
+### Soldering button pins
+Another thing to note is which pins on the PCB you solder your mouse buttons to. In the current compiled trackball.uf2, I have the pins for the buttons defined as thus below. If you use different pins, you would need to modify this code in [code/src/trackball.c](https://github.com/SamIAm2000/ballin-rp2040-trackball/blob/main/code/src/trackball.c)
 ```
 #define TOP_LEFT 16 // Mouse 5
 #define TOP_RIGHT 28 // Mouse 4
