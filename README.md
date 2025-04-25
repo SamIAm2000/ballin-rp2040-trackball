@@ -10,7 +10,7 @@ Uses [Jacek Fedorynski's](https://github.com/jfedor2) original PMW3360 trackball
 
 The four buttons map to Left Mouse Button, Right Mouse Button, Mouse 4, and Mouse 5. The original model only had 2 buttons, which was not adequate to implement scrolling and swiping functionality on top of the basic left and right clicking.
 
-With the addition of two other buttons, you can map software on your computer to enable scrolling and swiping behaviors when you hold certain mouse buttons. I'm personally a fan of using [Mac Mouse Fix](https://github.com/noah-nuebling/mac-mouse-fix) on all my Mac computers to map Mouse 4 to scrolling when dragged, and Mouse 5 to the 3 fingered swipe that allows you to switch between desktops and spaces and mission control. 
+With the addition of two other buttons, you can map software on your computer to enable scrolling and swiping behaviors when you hold certain mouse buttons. I'm personally a fan of using [Mac Mouse Fix](https://github.com/noah-nuebling/mac-mouse-fix) on all my Mac computers to map Mouse 5 to scrolling when dragged, and Mouse 4 to the 3 fingered swipe that allows you to switch between desktops and spaces and mission control. 
 
 Alternatively, if you want hardware scrolling programmed on the trackball instead of your computer, you can also modify the source code for the trackball. 
 
